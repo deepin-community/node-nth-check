@@ -1,0 +1,33 @@
+Source: node-nth-check
+Section: javascript
+Priority: optional
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Thorsten Alteholz <debian@alteholz.de>
+Build-Depends: debhelper-compat (= 13)
+ , dh-sequence-nodejs
+ , mocha <!nocheck>
+ , node-assert <!nocheck>
+ , node-boolbase <!nocheck>
+ , node-expect.js <!nocheck>
+ , node-typescript
+ , node-typescript-types
+Standards-Version: 4.5.1
+Vcs-Browser: https://salsa.debian.org/js-team/node-nth-check
+Vcs-Git: https://salsa.debian.org/js-team/node-nth-check.git
+Homepage: https://github.com/fb55/nth-check
+Testsuite: autopkgtest-pkg-nodejs
+Rules-Requires-Root: no
+
+Package: node-nth-check
+Architecture: all
+Depends: ${misc:Depends}
+ , node-boolbase
+Breaks: node-css-select (<< 2.1.0+dfsg-3~)
+Description: performant nth-check parser & compiler
+ This module can be used to parse & compile nth-checks, as they are found
+ in CSS 3's nth-child() and nth-last-of-type().
+ .
+ nth-check focusses on speed, providing optimized functions for different
+ kinds of nth-child formulas, while still following the spec.
+ .
+ Node.js is an event-based server-side JavaScript engine.

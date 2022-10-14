@@ -1,0 +1,45 @@
+node-nth-check (2.0.0-1) unstable; urgency=medium
+
+  * Team upload
+  * Declare compliance with policy 4.5.1
+  * New upstream version 2.0.0
+  * Build with typescript
+  * Update test
+  * Add a "Breaks" against node-css-select < 2.1.0+dfsg-3~
+
+ -- Xavier Guimard <yadd@debian.org>  Wed, 16 Dec 2020 11:34:58 +0100
+
+node-nth-check (1.0.2-1) unstable; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Trim trailing whitespace.
+  * Use secure copyright file specification URI.
+  * Use secure URI in debian/watch.
+  * Bump debhelper from old 9 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+  * Update Vcs-* headers from URL redirect.
+  * Use canonical URL in Vcs-Git.
+
+  [ Xavier Guimard ]
+  * Bump debhelper compatibility level to 13
+  * Declare compliance with policy 4.5.0
+  * Add "Rules-Requires-Root: no"
+  * Change section to javascript
+  * Add debian/gbp.conf
+  * debian/watch: use GitHub tags
+  * New upstream version 1.0.2
+  * Update copyright
+  * Use dh-sequence-nodejs auto install
+  * Enable upstream test
+
+ -- Xavier Guimard <yadd@debian.org>  Thu, 29 Oct 2020 20:15:05 +0100
+
+node-nth-check (1.0.1-1) unstable; urgency=medium
+
+  * Initial release
+
+ -- Thorsten Alteholz <debian@alteholz.de>  Sat, 05 Mar 2016 12:14:44 +0100
